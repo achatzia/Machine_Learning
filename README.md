@@ -1,4 +1,23 @@
 # Machine Learning
 
-<iframe src="https://public.tableau.com/views/Airbnb_Listings_Tableau/Story1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link"
- width="720" height="1280"></iframe>
+<!-- JS file to enable the JavaScript API. You can point at the
+  version on public.tableau.com, online.tableau.com, or your on-prem Server -->
+<script src="https://www.public.tableau.com/javascripts/api/tableau-2.js"></script>
+...
+<!-- Empty div where the viz will be placed -->
+<div id="tableauViz"></div>
+
+function initializeViz() {
+  // JS object that points at empty div in the html
+  var placeholderDiv = document.getElementById("tableauViz");
+  // URL of the viz to be embedded
+  var url = "https://public.tableau.com/profile/angelos6239#!/vizhome/Airbnb_Listings_Tableau/Story1";
+  // An object that contains options specifying how to embed the viz
+  var options = {
+    width: '600px',
+    height: '600px',
+    hideTabs: true,
+    hideToolbar: true,
+  };
+  viz = new tableau.Viz(placeholderDiv, url, options);
+}
