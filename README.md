@@ -3,7 +3,6 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Embedded Analytics with Tableau</title>
 </head>
 <body>
    <div class='tableauPlaceholder' id='viz1593471935831' style='position: relative'>
