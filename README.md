@@ -5,7 +5,7 @@ https://public.tableau.com/views/Airbnb_Listings_Tableau/Story1?:language=en&:di
 
 <html>
   <body>
-    <iframe src="https://public.tableau.com/views/Airbnb_Listings_Tableau/Story1?:origin=viz_share_link">
+    <iframe src="https://public.tableau.com/views/Airbnb_Listings_Tableau/Story1?:showVizHome=no&:embed=true">
     </iframe>
   </body>
 </html>
