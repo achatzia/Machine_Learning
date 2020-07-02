@@ -9,3 +9,12 @@ https://public.tableau.com/views/Airbnb_Listings_Tableau/Story1?:language=en&:di
     </iframe>
   </body>
 </html>
+
+<html>
+  <body>
+    <figure class="video_container">
+      <iframe src="https://public.tableau.com/views/Airbnb_Listings_Tableau/Story1?:showVizHome=no&:embed=true" width="1016" height="991">
+      </iframe>
+    </figure>
+  </body>
+</html>
